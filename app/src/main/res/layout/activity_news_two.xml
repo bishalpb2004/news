@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnTwo"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="G20 summit: PM Modi behind 'Bharat', country nameplate does the talking"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/two"
+                android:layout_marginLeft="7dp"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="NEW DELHI:seemingly Modi government's favoured nomenclature for the
+country, made another appearance in the international arena, with Prime Minister
+Narendra Modi using it at the meeting of G20 countries.
+The country nameplate in front of the PM read 'Bharat' as he made his opening remarks,
+in what marked arguably the Sanskritic term's grand arrival in the global arena as the
+signifier for the country.The government, in fact, seems to be favouring international events to promote 'Bharat'.
+While its intent was amplified when President Droupadi Murmu's dinner invite to G20
+delegates introduced her as the 'President of Bharat', it turned out that the government
+had used 'Prime Minister of Bharat' as Modi's job title during the Johannesburg meet of
+Brics countries.
+The same description was used again when the PM visited Indonesia for the East Asia
+summit.
+'Bharat' has also been used in a G20 booklet meant for foreign delegates, titled 'Bharat,
+The Mother Of Democracy', which said, 'Bharat is the official name of the country. It is mentioned in the Constitution as also in the reports of the Constituent Assembly.'
+Badges worn by officials read 'Bharat Official'.
+The move to elevate 'Bharat' has led to enthusiastic celebrations in BJP circles but has
+left opposition parties miffed. Congress and others have linked it to BJP's alleged jitters
+over their decision to name their front INDIA.
+Last week, the PM had asked his ministerial colleagues to exercise restraint in the face of
+opposition to the use of 'Bharat'. The prominence showered on 'Bharat' at the G20
+meeting showed that the advice had only to do with tactics, and that the government
+was not going back on what appears to be a well-thought-out plan."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnFour"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="India's digital public infrastructure push gets nod"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/four"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="NEW DELHI: India's plan to build and maintain a Global Digital Public Infrastructure Repository (GDPIR) that is voluntarily shared by G20 members and beyond has won endorsement from the group of developed and developing countries.
+Under its presidency, India has been pushing its achievements with digital public
+infrastructure (DPI) such as Aadhaar, CoWin, UPI and had promised to help other
+countries that wanted to build such Jsystems for delivery of public services.
+Take note of the Indian presidency's proposal of the One Future Alliance (OFA), a
+voluntary initiative aimed to build capacity, and provide technical assistance and
+adequate funding support for implementing DPI in LMICs (low or middle income
+countries), according to the G20 New Delhi Leaders Declaration.The declaration also welcomed the G20 Framework for Systems of Digital Public
+Infrastructure for the development, deployment and governance of DPI.
+It said that an enabling, inclusive, open, fair, non-discriminatory and secure digital
+economy is increasingly important for all countries and stakeholders while respecting
+applicable legal frameworks.The declaration also said it was the G20's endeavour to leverage artificial intelligence (AI) for public good by solving challenges in a responsible, inclusive and human-centric manner while protecting people's rights and safety.
+It said that to ensure responsible AI development, deployment and use, the protection of
+human rights, transparency, accountability, ethics and data protection, among other
+things, must be addressed."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnOne"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="SIA announces Rs 10 lakh award for information on Kashmiri lawyer’s killers"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/sia"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="SRINAGAR: Kashmir State Investigation Agency ( ) has announced a cash reward of
+Rs 10 lakh for anyone providing information on the killers of senior J and K High Court
+advocate Babar Qadri, who was gunned down by terrorists at his Srinagar residence on
+September 24, 2020.
+The informer’s identity would be kept confidential, the agency has assured. Those having
+any information can contact the SIA on the number: 9103998467
+(call/WhatsApp/Signal/Telegram).
+“Cash reward of Rs 10,00,000 is announced for those providing information leading to
+the arrest of the persons involved in the killing of senior advocate of J and K High Court,
+Late Babar Qadri, of Zahidpora, Hawal, Srinagar,” read a notice issued by the chief
+investigation officer SIT, SIA Kashmir.Digital transformation is no longer a luxury. It has become a necessity for companies to
+remain competitive and relevant in their respective industries. India’s spending on digital
+transformation is likely to reach $86 billion by 2026, according to the International Data
+Corporation (IDC) .
+While companies are adopting , they still have a long way to go.
+This is because many companies are still grappling with traditional way of engaging
+customers, managing workflows, and utilising information. Some of the challenges they
+encounter are as follows:
+1
+digital transformation
+Scattered, non-actionable data: Data serves as the vital essence of any
+business, as companies amass vast amounts of customer data. However, this data
+often remains segregated, lacking communication between different sources.
+Alternatively, the data may exist in its raw form, harbouring countless valuable yet
+untapped insights that have the potential to propel businesses forward.
+Consequently, this data is rendered non-actionable and fails to be optimised for
+effective decision-making.
+Weak resource management and collaboration: Companies labour under
+hundreds of applications. This results in an overload of vendors and a sea of
+different software and databases. It can lead to work duplication and lower
+collaboration.
+An inability to keep pace with customers: Today’s customers have significantly
+changed. They want brands to intuitively understand their needs, serve them
+effectively on mobile, web, and social media, and move at their pace instead of the
+other way around. Brands that don’t use digital technology fail to understand and
+seamlessly serve their customer’s lag. Currently, only 17% of Indian businesses
+deliver ‘exceptional’ customer services, though 79% say improved customer
+experience is a way to drive revenue .
+2
+Slow to respond to change: The lack of digital transformation can make it
+harder for companies to gather the right data at the right time and execute the
+right intervention. That, in turn, affects their speed-to-market.
+Lower value creation: Without the right technologies working in tandem, the
+workflow can be cumbersome, people don’t have access to the same data, and
+many professionals end up investing significant time in non-critical tasks.
+That’s why it’s crucial for senior leaders and function heads to rethink digital in
+their business model to improve productivity, customer experience, and
+profitability. EY’s CEO survey 2022 reported that 50% of respondents expected to
+improve profits with digital and technological interventions ."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

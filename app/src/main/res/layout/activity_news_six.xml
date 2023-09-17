@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnSix"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="PM Modi proposes G20 satellite for environment, climate observation, says it will benefit global south"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/six"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="NEW DELHI: Most Heads of State, including US President and UK Prime
+Minister Rishi Sunak, are scheduled to leave Delhi on Sunday (September 10), following
+their participation in the two-day G20 Leaders' Summit hosted in the national capital.
+According to sources, the Centre has assigned responsibilities to Union Ministers of
+States to see off the foreign delegates after the summit. A directive in this regard was
+issued by the foreign secretary.
+The Heads of State of countries including UAE, US, Bangladesh, Egypt, China, Australia,
+UK, Argentina, Indonesia, France, Germany, Netherlands, Turkey, Japan, Italy, Spain,
+South Africa, Republic of Korea, Canada and Singapore will depart from Delhi on Sunday,
+they said.
+US President Joe Biden’s departure from India is scheduled at around 10.20 am, and MoS
+Rajeev Chandrashekhar will see him off.
+UK PM Rishi Sunak will depart from Delhi in the afternoon, where MOS Kailash Chaudhari
+will see him off.
+Similarly, Bangladesh Prime Minister Sheikh Hasina will depart from Delhi at around
+10.20 am, and MoS Anupriya Patel will see her off.
+Seven G20 leaders of countries including Brazil, the African Union (represented by
+Comoros), Nigeria, Saudi Arabia, the European Union and Mauritius will depart from
+Delhi on Monday.
+US President Biden on Saturday emphasized the importance of the India-Middle EastEurope Corridor and said that the United States will work with its partners to invest in
+building sustainable, resilient infrastructure, and making quality infrastructure
+investments.
+He was addressing the Partnership for Global Infrastructure Investment (PGII) and IndiaMiddle East-Europe Economic Corridor programme at Bharat Mandapam, Delhi.
+This is a real big deal. I want to thank PM. One Earth, One Family, One Future that's the
+focus of this G20 Summit. And in many ways, it's also the focus of this partnership that
+we're talking about today, Biden said.
+Prime Minister Narendra Modi met his British counterpart Rishi Sunak on the sidelines of
+the summit on Saturday and discussed ways to deepen trade linkages and boost
+investment.Rishi Sunak held talks with Modi after the first session of the G20 Summit.
+In a significant milestone under India's G20 presidency, the 55-member African Union
+became a new permanent member of the grouping of the largest economies of the world.
+It is the first expansion of the influential bloc since its inception in 1999."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

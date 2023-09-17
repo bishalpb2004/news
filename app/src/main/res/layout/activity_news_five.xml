@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnFive"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="In a 1st, scientists map how chikungunya affects Indians"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/five"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="VIJAYAWADA: president N was produced in an
+Anti-Corruption Bureau court here on Sunday morning amid tight security, a day after
+being arrested in a case of alleged corruption. The former Andhra Pradesh chief minister
+is being represented by Supreme Court lawyer Siddarth Luthra and a team of advocates.
+Several TDP senior leaders and the party cadre gathered at the court complex.
+At 3.40am, he was taken to Government General Hospital in Vijayawada for medical tests
+following a 10-hour-long interrogation at the CID's Special Investigation Team (SIT)
+office at Kunchanapalli here.
+Following the tests, which lasted for about 50 minutes, Naidu was taken back to the SIT office even though it was expected that he would be directly taken to a local court.
+The TDP chief's son Nara Lokesh, wife Nara Bhuvaneswari and others were waiting at the
+ACB Court, TDP spokesperson Pattabhi Ram Kommareddy told PTI.
+We thought that he would be taken to the court. But they brought him back to the SIT
+office. Lokesh and Bhuvaneswari were waiting at the Court but all of a sudden the convoy
+turned towards the SIT office,Kommareddy said.Wondering whether Naidu would be produced in the court before 24 hours of arrest, he
+said they were surprised and confused.Naidu was arrested in connection with the alleged Skill Development Corporation scam
+after a pre-dawn police operation at Gnanapuram in Nandyala on Saturday. He was
+arrested by the CID around 6 am from a marriage hall outside which his caravan was
+parked.It has been alleged that the scam led to a Rs 300-crore loss to the state exchequer. The
+TDP chief has been named the 'principal conspirator' in the case.
+Meanwhile, the TDP gave a call to its supporters to take part in a one-day fast in every
+Assembly constituency on Sunday to protest against Naidu's arrest."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

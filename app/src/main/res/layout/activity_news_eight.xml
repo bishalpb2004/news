@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsOne"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/BackBtnEight"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/homeicon"/>
+        <TextView
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="India vs Sri Lanka, Asia Cup 2023 Final Highlights: Rohit Sharma-led India lifts Asia Cup trophy"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/eight2"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="India vs Sri Lanka, Asia Cup 2023 Highlights: Ishan Kishan and Shubman Gill took their team to the Asia Cup 2023 trophy as India lifted the Asia Cup after 5 years. The match was delayed by the rains, but nobody knew that the real storm was yet to come. The storm named Mohammed Siraj swept through Sri Lankan batters as he clinched 6 wickets in 7 overs. Hardik Pandya took 3 crucial wickets and Sri Lankan team is all out on just 50 runs.
+
+Sri Lanka earned their spot in the final by defeating Pakistan by a narrow margin of two wickets during the Super Four stage, setting the stage for a highly anticipated showdown against India. In Sunday's final, Sri Lanka will be aiming to match India's remarkable record of seven Asia Cup final, marking their second consecutive final appearance and their 11th overall.
+
+India and Sri Lanka hold the record for the most One Day International (ODI) encounters between any two teams, having clashed in 166 matches. Out of these, India have emerged victorious in 97 while Sri Lanka have secured 57 wins. Also, 11 matches concluded with no result, and one ended in a tie.
+
+The R Premadasa Stadium in Colombo is renowned for its batting-friendly pitches. Teams setting the target have enjoyed more favourable results than those who chase. As the game unfolds, it tends to provide assistance to spinners. However, the main concern is rain, which has disrupted multiple matches in the tournament this year.
+
+Key highlights of the Asia Cup 2023 Final:
+
+1. Having won the toss, Sri Lanka opted to take the first turn at batting.
+
+2. Due to inclement weather, the match's commencement was postponed by 40 minutes.
+
+3. Jasprit Bumrah managed to secure a critical wicket on the third delivery of the match.
+
+4. Following that, Mohammed Siraj made a significant impact, claiming four wickets during his second over, leaving Sri Lanka in a precarious position.
+
+5. In an impressive display of skill, Mohammed Siraj achieved a six-wicket haul in just seven overs.
+
+6. In the 13th over, Hardik Pandya claimed another wicket, reducing Sri Lanka to their final two batsmen, with 40 overs still to be played. He was the one to clinch final wicket also.
+
+7. Sri Lanka suffered a devastating collapse, managing a mere 50 runs in 15.2 overs.
+
+8. India's opening pair of Ishan Kishan and Shubman Gill successfully chased down the target with a remarkable 263 balls to spare, setting a new record."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
